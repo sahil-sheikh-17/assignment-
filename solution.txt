@@ -1,0 +1,46 @@
+ notepad textfile1.txt
+  232  notepad textfile2.txt
+  233  notepad textfile3.txt
+  234  git init
+  235  git branch
+  236  git checkout -b Dev
+  237  git branch
+  238  git checkout -b master
+  239  git branch
+  240  git init
+  241  git log
+  242  notepad README.md
+  243  git status
+  244  git add README.md
+  245  git status
+  246  git commit -m "Readme File"
+  247  git checkout -b Dev
+  248  git branch
+  249  git status
+  250  git add textfile1.txt
+  251  git status
+  252  git commit -m ""initial commit for textfile1 in Dev branch"
+
+  253  git commit -m "initial commit for textfile1 in Dev branch"
+  254  git checkout -b Test
+  255  git branch
+  256  git add textfile2.txt textfile3.txt
+  257  git commit -m "textfile2 and 3 commit inside Test branch"
+  258  git checkout Dev
+  259  notepad textfile1.txt
+  260  git diff
+  261  git status
+  262  git add textfile1.txt
+  263  get diff --staged
+  264  git diff --staged
+  265  git commit -m "final changes in textfile1"
+  266  git status
+  267  git checkout master
+  268  git log
+  269  git merge Dev
+  270  git log
+  271  git merge Test
+  272  git log
+  273 git remote add origin https://github.com/sahil-sheikh-17/assignment-.git
+  274 git push -u origin master
+
